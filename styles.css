@@ -1,7 +1,7 @@
 .mountain {
-    width: 300px;
-    height: auto:
     flex: 1 1 0;
+    width: 300px;
+    height: auto;
 }
 
 .bird {
@@ -33,10 +33,10 @@ body {
 
 .main {
     background-color: #1F2937;
-    padding: 0px 192px;
+    padding: 96px 192px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .info {
@@ -72,8 +72,20 @@ body {
 .call {
     background-color: #3882F6;
     margin: 96px 192px;
-    padding: 24px;
+    padding: 24px 96px;
     color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.words {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wordstwo {
+
 }
 
 ul {
@@ -98,7 +110,11 @@ ul {
 }
 
 .bulk {
-    flex: 1 1 0;
+    flex: 1 1 100;
+}
+
+.imagine {
+    flex: 1 1 100;
 }
 
 .bulk h2 {
@@ -113,7 +129,22 @@ ul {
 }
 
 .bulk button {
-    
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    width: 96px;
+    height: 36px;
+    font-weight: bold;
+}
+
+.call button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 6px;
+    color: white;
+    width: 96px;
+    font-weight: bold;
 }
 
 .info h4 {
